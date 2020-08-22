@@ -2,4 +2,18 @@
     body{
         background-image: url(../assets/images/bg-mobile.svg);
     }
+    .logo{
+        max-width: 125px;
+    }
+    .image-container{
+        width: 100vw;
+        margin: 0px;
+        display: flex;
+        justify-content: center;
+    }
+    .main-image{
+        padding-top: 55px;
+        padding-right: 24px;
+        width: 80%
+    }
 }
