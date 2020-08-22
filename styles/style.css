@@ -1,6 +1,11 @@
 body{
     background-image: url(../assets/images/bg-desktop.svg);
     background-repeat: no-repeat;
-    background-size: cover;
     background-color: hsl(257, 40%, 49%);
+}
+.container{
+    font-size: inherit;
+    display: inherit;
+    flex-direction: inherit;
+    
 }
