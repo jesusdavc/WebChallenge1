@@ -2,10 +2,26 @@ body{
     background-image: url(../assets/images/bg-desktop.svg);
     background-repeat: no-repeat;
     background-color: hsl(257, 40%, 49%);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
 }
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Poppins', sans-serif
+}
+.main-description-secction > div > h2{
+    font-size: 24px;
+    font-weight: 400;
+    color: white;
+}
+.main-description-secction > div > p{
+    color: white;
+}
+
 .container{
     font-size: inherit;
     display: inherit;
     flex-direction: inherit;
+    align-items: inherit;
+    justify-content: inherit;
     
 }
