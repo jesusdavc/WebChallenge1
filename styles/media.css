@@ -22,9 +22,14 @@
     .main-description-secction > div > p{
         text-align: center;
     }
+    .main-description-secction > div > h2{
+        font-size: 24px;
+    }
     .main-description-secction > div > p{
-        padding-left: 17px;
-        padding-right: 17px;
+        font-size: 16px;
+        padding-left: 15px;
+        padding-right: 15px;
+
     }
     .main-description-secction{
         display: flex;
@@ -36,6 +41,6 @@
         border-radius: 30px;
         border-style: none;
         width: 210px;
-        padding: 10px
+        padding: 15px
     }
 }
