@@ -28,3 +28,17 @@ h1,h2,h3,h4,h5,h6{
 .button-register{
     color: hsl(257, 40%, 49%) ;
 }
+.icon{
+    font-size: 12px;
+    text-decoration: none;
+    color: white;
+    border-radius: 100%;
+    border: solid white 1px;
+    padding: 6px;
+}
+.link{
+    text-decoration: none;
+}
+footer{
+    margin-top: 10px;
+}

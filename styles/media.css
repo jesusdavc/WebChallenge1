@@ -43,6 +43,14 @@
         width: 210px;
         padding: 15px
     }
+    .footer{
+        padding-top: 50px;
+        display: flex;
+        justify-content: center;
+    }
+    .link{
+        margin-left: 5px;
+    }
 }
 
 @media screen and (max-width: 468px){
