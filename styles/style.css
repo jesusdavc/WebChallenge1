@@ -1,20 +1,42 @@
 body{
     background-image: url(../assets/images/bg-desktop.svg);
+    background-size: contain;
     background-repeat: no-repeat;
     background-color: hsl(257, 40%, 49%);
     font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
     font-size: 16px;
 }
 h1,h2,h3,h4,h5,h6{
-    font-family: 'Poppins', sans-serif
+    font-family: 'Poppins', sans-serif;
+}
+.main{
+    padding-top: 27px;
+    display: grid;
+    align-self: center;
+    grid-template-columns: 1fr 1fr;
+}
+.image-container{
+    width: 100vw;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+}
+.main-description-secction{
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 25px;
 }
 .main-description-secction > div > h2{
-    font-size: 24px;
-    font-weight: 400;
+    font-size: 20px;
     color: white;
+    margin: 10px;
 }
 .main-description-secction > div > p{
     color: white;
+    font-size: 16px;
 }
 
 .container{
@@ -25,8 +47,31 @@ h1,h2,h3,h4,h5,h6{
     justify-content: inherit;
     
 }
+.logo{
+    max-width: 125px;
+}
+.image-container{
+    width: 50vw;
+    margin: 0px;
+}
+.main-image{
+    padding-top: 50px;
+    width: 85%
+}
 .button-register{
     color: hsl(257, 40%, 49%) ;
+        margin-top: 15px;
+        border-radius: 30px;
+        border-style: none;
+        width: 210px;
+        padding: 15px;
+        box-shadow: 0px 0px 12px -2px black;
+}
+.button-register:hover{
+    color: white ;
+    background-color: hsl(257, 40%, 49%);
+    border: solid white 1px;
+
 }
 .icon{
     font-size: 12px;
@@ -36,9 +81,19 @@ h1,h2,h3,h4,h5,h6{
     border: solid white 1px;
     padding: 6px;
 }
+.icon:hover{
+    color:hsl(257, 40%, 49%);
+    background-color: white;
+}
 .link{
     text-decoration: none;
+        margin-left: 5px;
 }
-footer{
+.footer{
     margin-top: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+.footer > div{
+    margin-right: 50px;
 }
